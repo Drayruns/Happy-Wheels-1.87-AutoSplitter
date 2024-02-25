@@ -11,7 +11,8 @@
 // Massive thanks to itsMaximum and Mysterion352
 
 state("flashplayer") {
-    int stackedData: "flashplayer.exe", 0x00A6262C, 0xC90, 0xB60, 0x178, 0x0, 0x34, 0x44;
+    int stackedData: "flashplayer.exe", 0x00A6262C, 0x3C0, 0xA4;
+    int stackedDataBackup: "flashplayer.exe", 0x00A624B4, 0x13C, 0xE74;
     // stacked data is some random memory address that holds one of A or B... (ONLY B WORKS)
 
     // level select: 3 or 2
